@@ -9,12 +9,11 @@
 .questions{
     background-color:#cfe2e2;
     font-family:Garamond,serif;
-    font-size:20px;
+    font-size:25px;
     margin-top:30px;
     margin-bottom:10px;
     margin-left:150px;
     font-weight:bold;
-    font-size:25px;
     border:1px solid black;
     padding:5px;
     width:1150px
@@ -35,11 +34,52 @@
 
 }
 
+
 .two{
     margin-top:7px;
 }
 
-.three{
-    margin-top:7px;
-    font-weight:800px;
+@media(max-width:1250px){
+    .questions{
+        width:72%;
+}
+    .content{
+        width:71%;
+}
+}
+
+@media(max-width:500px){
+    #title-1{font-family:Garamond,serif;
+        margin-top:30px;
+        margin-bottom:40px;
+        font-weight:bold;
+        font-size:30px;
+        text-align:center;
+}
+    .questions{
+        width:90%;
+        background-color:#cfe2e2;
+        font-family:Garamond,serif;
+        font-size:20px;
+        margin-top:30px;
+        margin-bottom:10px;
+        margin-left:auto;
+        margin-right:auto;
+        font-weight:bold;
+        border:1px solid black;
+        padding:5px;
+}
+    .content{
+        width:90%;
+        font-family:Garamond,serif;
+        margin-bottom:10px;
+        margin-left:auto;
+        margin-right:auto;
+        font-size:15px;
+        letter-spacing:0.1rem;
+        line-height:30px;
+        margin-top:10px;
+        border:1px solid black;
+        padding:10px;
+}
 }
